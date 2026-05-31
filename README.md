@@ -1,4 +1,4 @@
-# 🛡️ Talos: The MCP Security Gateway
+# Talos: The MCP Security Gateway
 
 <p align="center">
   <b>Lightweight, lightning-fast JSON-RPC security proxy for Model Context Protocol (MCP) servers. Written in Rust.</b>
