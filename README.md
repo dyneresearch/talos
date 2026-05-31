@@ -1,12 +1,12 @@
 # 🛡️ Talos: The MCP Security Gateway
 
 <p align="center">
-  <b>Lightweight, lightning-fast JSON-RPC security proxy for Model Context Protocol (MCP) servers.</b>
+  <b>Lightweight, lightning-fast JSON-RPC security proxy for Model Context Protocol (MCP) servers. Written in Rust.</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/dyne-research/talos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
-  <a href="https://github.com/dyne-research/talos"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/dyneresearch/talos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/dyneresearch/talos"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <img src="https://img.shields.io/badge/language-Rust-orange.svg" alt="Rust">
 </p>
 
@@ -50,12 +50,17 @@ If a developer works on open-source code containing a **Visual Prompt Injection*
 
 ## Features
 
-- ⚡ **Zero-Latency Proxying**: Written in memory-safe, asynchronous Rust to ensure zero visible execution delay for your AI agent.
-- 🛑 **Destructive Command Interception**: Blocks high-risk command structures (`rm -rf`, `mkfs`, `dd`, piping curl directly to shells).
-- 🧩 **Anti-Obfuscation Scanner**: Intercepts attempts to execute encoded shell code (e.g. Base64 strings or Python hex arrays).
-- 📂 **Strict Path Sandboxing & Resolving**: Resolves absolute symlinks and blocks access to sensitive system paths (`~/.ssh`, `~/.aws`, `.git/config`, `AppData`).
-- ✍️ **Write Content Scans**: Scans the body text of file modification calls to prevent the injection of malicious backdoor scripts.
-- 💬 **Interactive TTY Prompts**: Instead of failing blindly, Talos suspends suspicious requests and prints a visual approval prompt directly to your physical terminal.
+**1. Zero-Latency Proxying**: Written in memory-safe, asynchronous Rust to ensure zero visible execution delay for your AI agent.
+
+**2. Destructive Command Interception**: Blocks high-risk command structures (`rm -rf`, `mkfs`, `dd`, piping curl directly to shells).
+
+**3. Anti-Obfuscation Scanner**: Intercepts attempts to execute encoded shell code (e.g. Base64 strings or Python hex arrays).
+
+**4. Strict Path Sandboxing & Resolving**: Resolves absolute symlinks and blocks access to sensitive system paths (`~/.ssh`, `~/.aws`, `.git/config`, `AppData`).
+
+**5. Write Content Scans**: Scans the body text of file modification calls to prevent the injection of malicious backdoor scripts.
+
+**6. Interactive TTY Prompts**: Instead of failing blindly, Talos suspends suspicious requests and prints a visual approval prompt directly to your physical terminal.
 
 ---
 
