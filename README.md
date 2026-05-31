@@ -122,7 +122,7 @@ Looking to secure AI agent usage across your entire engineering team? **Dyne Res
 - **Team Audit Dashboard**: Review and analyze blocked execution attempts and exfiltration risk profiles across your workspaces.
 - **Compliance Logging**: Maintain immutable history of AI terminal commands for SOC2 and ISO27001 requirements.
 
-Visit [Dyne Research](https://dyneresearch.com) or contact us at `enterprise@dyneresearch.com` to schedule a demo.
+Visit [Dyne Research](https://dyneresearch.com) or contact us at `connect@dyneresearch.com` to schedule a demo.
 
 ---
 
