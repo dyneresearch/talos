@@ -1,5 +1,8 @@
 # Talos: The MCP Security Gateway
 
+<img width="1542" height="771" alt="MARS UI (8)" src="https://github.com/user-attachments/assets/00bca952-d3ba-4fd0-9d81-c5535866029e" />
+
+
 <p align="center">
   <b>Lightweight, lightning-fast JSON-RPC security proxy for Model Context Protocol (MCP) servers. Written in Rust.</b>
 </p>
